@@ -1,7 +1,7 @@
 import '../css/common.css';
-import BSN from "bootstrap.native";
+// import BSN from "bootstrap.native";
 
-const modal = new BSN.Modal("#subscription-modal");
+// const modal = new BSN.Modal("#subscription-modal");
 
 // const refs = {
 //   modal: document.querySelector('#subscription-modal'),
