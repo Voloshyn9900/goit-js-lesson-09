@@ -1,12 +1,34 @@
 import '../css/common.css';
 // import BSN from 'bootstrap.native';
+import { Modal } from 'bootstrap.native';
 
 
 // const modal = new BSN.Modal("#subscription-modal");
-// const refs = {
-//   modal: document.querySelector('#subscription-modal'),
-//   subscribeBtn: document.querySelector('button[data-subscribe]'),
-// };
+const modal = new Modal('#subscription-modal');
+const refs = {
+  modal: document.querySelector('#subscription-modal'),
+  subscribeBtn: document.querySelector('button[data-subscribe]'),
+};
+
+console.log(modal);
+modal.show();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // const PROMPT_DELAY = 1000;
 // const MAX_PROMPT_ATTEMPTS = 3;
